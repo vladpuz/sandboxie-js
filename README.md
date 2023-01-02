@@ -37,7 +37,7 @@ const name = 'TestBox'
 const names = Array.from(new Array(5), (item, i) => `TestBox${i + 1}`)
 const program = ['/hide_window', 'C:/Windows/System32/notepad.exe']
 const settings = `
-enabled=y
+Enabled=y
 BlockNetworkFiles=y
 RecoverFolder=%{374DE290-123F-4565-9164-39C4925E467B}%
 RecoverFolder=%Personal%
