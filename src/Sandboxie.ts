@@ -1,4 +1,4 @@
-import fs from 'fs-extra'
+import fs from 'fs/promises'
 import { execa } from 'execa'
 import { setTimeout } from 'timers/promises'
 import { SandboxieOptions } from './types/SandboxieOptions.js'
@@ -12,7 +12,7 @@ class Sandboxie {
   public readonly portable: boolean
   public readonly clientPath: string
   public readonly configPath: string
-  public readonly configEncoding = 'utf-16le'
+  public readonly configEncoding = 'utf16le'
   public readonly configLineBreak = '\r\n'
 
   public constructor (options?: SandboxieOptions | null) {
@@ -110,7 +110,7 @@ class Sandboxie {
   }
 
   public async startMany (starts: Start[]): Promise<void> {
-    const startOperations = starts.map(async (start) => await this.start(start.name, start.program))
+    const startOperations = starts.map(async (start) => { await this.start(start.name, start.program) })
     await Promise.all(startOperations)
   }
 

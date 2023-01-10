@@ -1,4 +1,4 @@
-import fs from 'fs-extra'
+import fs from 'fs/promises'
 import Sandboxie from './Sandboxie.js'
 import { RemoveOptions } from './types/RemoveOptions.js'
 

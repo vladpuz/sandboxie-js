@@ -160,7 +160,7 @@ with `Sandboxie.ini` and this can lead to an error in writing to the `EBUSY` fil
 
 #### Defined in
 
-Sandboxie.ts:18
+[Sandboxie.ts:18](https://github.com/vladislav-puzyrev/sandboxie-js/blob/91ea447/src/Sandboxie.ts#L18)
 
 ## Properties
 
@@ -170,7 +170,7 @@ Sandboxie.ts:18
 
 #### Defined in
 
-Sandboxie.ts:11
+[Sandboxie.ts:11](https://github.com/vladislav-puzyrev/sandboxie-js/blob/91ea447/src/Sandboxie.ts#L11)
 
 ___
 
@@ -180,17 +180,17 @@ ___
 
 #### Defined in
 
-Sandboxie.ts:13
+[Sandboxie.ts:13](https://github.com/vladislav-puzyrev/sandboxie-js/blob/91ea447/src/Sandboxie.ts#L13)
 
 ___
 
 ### configEncoding
 
-• `Readonly` **configEncoding**: ``"utf-16le"``
+• `Readonly` **configEncoding**: ``"utf16le"``
 
 #### Defined in
 
-Sandboxie.ts:15
+[Sandboxie.ts:15](https://github.com/vladislav-puzyrev/sandboxie-js/blob/91ea447/src/Sandboxie.ts#L15)
 
 ___
 
@@ -200,7 +200,7 @@ ___
 
 #### Defined in
 
-Sandboxie.ts:16
+[Sandboxie.ts:16](https://github.com/vladislav-puzyrev/sandboxie-js/blob/91ea447/src/Sandboxie.ts#L16)
 
 ___
 
@@ -210,7 +210,7 @@ ___
 
 #### Defined in
 
-Sandboxie.ts:14
+[Sandboxie.ts:14](https://github.com/vladislav-puzyrev/sandboxie-js/blob/91ea447/src/Sandboxie.ts#L14)
 
 ___
 
@@ -220,7 +220,7 @@ ___
 
 #### Defined in
 
-Sandboxie.ts:10
+[Sandboxie.ts:10](https://github.com/vladislav-puzyrev/sandboxie-js/blob/91ea447/src/Sandboxie.ts#L10)
 
 ___
 
@@ -230,7 +230,7 @@ ___
 
 #### Defined in
 
-Sandboxie.ts:12
+[Sandboxie.ts:12](https://github.com/vladislav-puzyrev/sandboxie-js/blob/91ea447/src/Sandboxie.ts#L12)
 
 ## Methods
 
@@ -251,7 +251,7 @@ Sandboxie.ts:12
 
 #### Defined in
 
-Sandboxie.ts:28
+[Sandboxie.ts:28](https://github.com/vladislav-puzyrev/sandboxie-js/blob/91ea447/src/Sandboxie.ts#L28)
 
 ___
 
@@ -271,7 +271,7 @@ ___
 
 #### Defined in
 
-Sandboxie.ts:42
+[Sandboxie.ts:42](https://github.com/vladislav-puzyrev/sandboxie-js/blob/91ea447/src/Sandboxie.ts#L42)
 
 ___
 
@@ -291,7 +291,7 @@ ___
 
 #### Defined in
 
-Sandboxie.ts:165
+[Sandboxie.ts:165](https://github.com/vladislav-puzyrev/sandboxie-js/blob/91ea447/src/Sandboxie.ts#L165)
 
 ___
 
@@ -305,7 +305,7 @@ ___
 
 #### Defined in
 
-Sandboxie.ts:173
+[Sandboxie.ts:173](https://github.com/vladislav-puzyrev/sandboxie-js/blob/91ea447/src/Sandboxie.ts#L173)
 
 ___
 
@@ -326,7 +326,7 @@ ___
 
 #### Defined in
 
-Sandboxie.ts:60
+[Sandboxie.ts:60](https://github.com/vladislav-puzyrev/sandboxie-js/blob/91ea447/src/Sandboxie.ts#L60)
 
 ___
 
@@ -346,7 +346,7 @@ ___
 
 #### Defined in
 
-Sandboxie.ts:81
+[Sandboxie.ts:81](https://github.com/vladislav-puzyrev/sandboxie-js/blob/91ea447/src/Sandboxie.ts#L81)
 
 ___
 
@@ -360,7 +360,7 @@ ___
 
 #### Defined in
 
-Sandboxie.ts:127
+[Sandboxie.ts:127](https://github.com/vladislav-puzyrev/sandboxie-js/blob/91ea447/src/Sandboxie.ts#L127)
 
 ___
 
@@ -381,7 +381,7 @@ ___
 
 #### Defined in
 
-Sandboxie.ts:108
+[Sandboxie.ts:108](https://github.com/vladislav-puzyrev/sandboxie-js/blob/91ea447/src/Sandboxie.ts#L108)
 
 ___
 
@@ -401,7 +401,7 @@ ___
 
 #### Defined in
 
-Sandboxie.ts:112
+[Sandboxie.ts:112](https://github.com/vladislav-puzyrev/sandboxie-js/blob/91ea447/src/Sandboxie.ts#L112)
 
 ___
 
@@ -421,7 +421,7 @@ ___
 
 #### Defined in
 
-Sandboxie.ts:117
+[Sandboxie.ts:117](https://github.com/vladislav-puzyrev/sandboxie-js/blob/91ea447/src/Sandboxie.ts#L117)
 
 ___
 
@@ -435,7 +435,7 @@ ___
 
 #### Defined in
 
-Sandboxie.ts:122
+[Sandboxie.ts:122](https://github.com/vladislav-puzyrev/sandboxie-js/blob/91ea447/src/Sandboxie.ts#L122)
 
 # Interface: RemoveOptions
 
@@ -453,7 +453,7 @@ Sandboxie.ts:122
 
 #### Defined in
 
-types/RemoveOptions.ts:2
+[types/RemoveOptions.ts:2](https://github.com/vladislav-puzyrev/sandboxie-js/blob/91ea447/src/types/RemoveOptions.ts#L2)
 
 # Interface: Sandbox
 
@@ -472,7 +472,7 @@ types/RemoveOptions.ts:2
 
 #### Defined in
 
-types/Sandbox.ts:2
+[types/Sandbox.ts:2](https://github.com/vladislav-puzyrev/sandboxie-js/blob/91ea447/src/types/Sandbox.ts#L2)
 
 ___
 
@@ -482,7 +482,7 @@ ___
 
 #### Defined in
 
-types/Sandbox.ts:3
+[types/Sandbox.ts:3](https://github.com/vladislav-puzyrev/sandboxie-js/blob/91ea447/src/types/Sandbox.ts#L3)
 
 # Interface: SandboxieOptions
 
@@ -504,7 +504,7 @@ types/Sandbox.ts:3
 
 #### Defined in
 
-types/SandboxieOptions.ts:3
+[types/SandboxieOptions.ts:3](https://github.com/vladislav-puzyrev/sandboxie-js/blob/91ea447/src/types/SandboxieOptions.ts#L3)
 
 ___
 
@@ -514,7 +514,7 @@ ___
 
 #### Defined in
 
-types/SandboxieOptions.ts:5
+[types/SandboxieOptions.ts:5](https://github.com/vladislav-puzyrev/sandboxie-js/blob/91ea447/src/types/SandboxieOptions.ts#L5)
 
 ___
 
@@ -524,7 +524,7 @@ ___
 
 #### Defined in
 
-types/SandboxieOptions.ts:6
+[types/SandboxieOptions.ts:6](https://github.com/vladislav-puzyrev/sandboxie-js/blob/91ea447/src/types/SandboxieOptions.ts#L6)
 
 ___
 
@@ -534,7 +534,7 @@ ___
 
 #### Defined in
 
-types/SandboxieOptions.ts:2
+[types/SandboxieOptions.ts:2](https://github.com/vladislav-puzyrev/sandboxie-js/blob/91ea447/src/types/SandboxieOptions.ts#L2)
 
 ___
 
@@ -544,7 +544,7 @@ ___
 
 #### Defined in
 
-types/SandboxieOptions.ts:4
+[types/SandboxieOptions.ts:4](https://github.com/vladislav-puzyrev/sandboxie-js/blob/91ea447/src/types/SandboxieOptions.ts#L4)
 
 # Interface: Start
 
@@ -563,7 +563,7 @@ types/SandboxieOptions.ts:4
 
 #### Defined in
 
-types/Start.ts:2
+[types/Start.ts:2](https://github.com/vladislav-puzyrev/sandboxie-js/blob/91ea447/src/types/Start.ts#L2)
 
 ___
 
@@ -573,4 +573,4 @@ ___
 
 #### Defined in
 
-types/Start.ts:3
+[types/Start.ts:3](https://github.com/vladislav-puzyrev/sandboxie-js/blob/91ea447/src/types/Start.ts#L3)
