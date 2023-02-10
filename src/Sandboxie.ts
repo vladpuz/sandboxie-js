@@ -1,10 +1,10 @@
 import fs from 'fs/promises'
 import { execa } from 'execa'
 import { setTimeout } from 'timers/promises'
-import { SandboxieOptions } from './types/SandboxieOptions.js'
-import { RemoveOptions } from './types/RemoveOptions.js'
-import { Sandbox } from './types/Sandbox.js'
-import { Start } from './types/Start.js'
+import { type SandboxieOptions } from './types/SandboxieOptions.js'
+import { type RemoveOptions } from './types/RemoveOptions.js'
+import { type Sandbox } from './types/Sandbox.js'
+import { type Start } from './types/Start.js'
 
 class Sandboxie {
   public readonly delay: number

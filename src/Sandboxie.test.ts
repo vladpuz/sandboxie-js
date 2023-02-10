@@ -1,6 +1,6 @@
 import fs from 'fs/promises'
 import Sandboxie from './Sandboxie.js'
-import { RemoveOptions } from './types/RemoveOptions.js'
+import { type RemoveOptions } from './types/RemoveOptions.js'
 
 const sandboxie = new Sandboxie()
 const name = 'TestBox'
