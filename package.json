@@ -19,9 +19,10 @@
   "scripts": {
     "build": "yarn run clean:build && tsc --project tsconfig.production.json",
     "coverage": "yarn run clean:coverage && node --experimental-vm-modules --no-warnings node_modules/jest/bin/jest.js --no-cache --coverage --testTimeout=20000",
-    "docs": "yarn run clean:docs && yarn run docs:typedoc && yarn run docs:concat",
-    "docs:typedoc": "typedoc --plugin typedoc-plugin-markdown --excludePrivate --hideBreadcrumbs --name API src/index.ts",
-    "docs:concat": "concat-md --hide-anchor-links docs > README.md",
+    "docs": "yarn run clean:docs && yarn run docs:pull && yarn run docs:typedoc && yarn run docs:push",
+    "docs:pull": "git clone https://github.com/vladislav-puzyrev/sandboxie-js.wiki.git docs && rimraf docs/!(.git)",
+    "docs:typedoc": "typedoc --theme github-wiki --excludePrivate --githubPages false --cleanOutputDir false src/index.ts",
+    "docs:push": "cd docs && git add . && git diff-index --quiet HEAD || git commit -m TypeDoc && git push",
     "clean": "yarn run clean:build && yarn run clean:docs && yarn run clean:coverage",
     "clean:build": "rimraf build",
     "clean:docs": "rimraf docs",
@@ -38,7 +39,6 @@
     "@types/jest": "^29.2.5",
     "@typescript-eslint/eslint-plugin": "^5.48.1",
     "@typescript-eslint/parser": "^5.48.1",
-    "concat-md": "^0.5.0",
     "eslint": "^8.31.0",
     "eslint-config-standard-with-typescript": "^26.0.0",
     "eslint-plugin-import": "^2.26.0",
@@ -48,6 +48,7 @@
     "rimraf": "^3.0.2",
     "ts-jest": "^29.0.3",
     "typedoc": "^0.23.24",
+    "typedoc-github-wiki-theme": "^1.0.1",
     "typedoc-plugin-markdown": "^3.14.0",
     "typescript": "^4.9.4"
   }
