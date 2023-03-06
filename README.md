@@ -7,7 +7,7 @@ You can check out the official documentation here:
 - [Sandboxie.ini](https://github.com/sandboxie-plus/sandboxie-docs/blob/main/Content/SandboxieIni.md)
 - [Start.exe](https://github.com/sandboxie-plus/sandboxie-docs/blob/main/Content/StartCommandLine.md)
 
-TypeDoc documentation is available on [wiki](https://github.com/vladislav-puzyrev/proxy-string-parser/wiki)
+TypeDoc documentation is available on [wiki](https://github.com/vladislav-puzyrev/proxy-string-parser/wiki).
 
 ## Requirements
 
@@ -16,8 +16,16 @@ or portable versions of `Plus` and `Classic`.
 
 ## Install
 
+Using npm:
+
 ```bash
 npm install sandboxie-js
+```
+
+Using yarn:
+
+```bash
+yarn add sandboxie-js
 ```
 
 ## Usage

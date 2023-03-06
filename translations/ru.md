@@ -7,7 +7,7 @@ Sandboxie CLI клиент для автоматизированного упр�
 - [Sandboxie.ini](https://github.com/sandboxie-plus/sandboxie-docs/blob/main/Content/SandboxieIni.md)
 - [Start.exe](https://github.com/sandboxie-plus/sandboxie-docs/blob/main/Content/StartCommandLine.md)
 
-TypeDoc документация доступна на [wiki](https://github.com/vladislav-puzyrev/proxy-string-parser/wiki)
+TypeDoc документация доступна на [wiki](https://github.com/vladislav-puzyrev/proxy-string-parser/wiki).
 
 ## Требования
 
@@ -16,8 +16,16 @@ TypeDoc документация доступна на [wiki](https://github.com
 
 ## Установка
 
+Используя npm:
+
 ```bash
 npm install sandboxie-js
+```
+
+Используя yarn:
+
+```bash
+yarn add sandboxie-js
 ```
 
 ## Использование
