@@ -39,7 +39,7 @@ const sandboxie = new Sandboxie({
   delay: 2000,
   classic: false,
   portable: false,
-  clientPath: this.classic ? 'C:/Program Files/Sandboxie-Plus' : 'C:/Program Files/Sandboxie-Plus',
+  clientPath: this.classic ? 'C:/Program Files/Sandboxie' : 'C:/Program Files/Sandboxie-Plus',
   configPath: this.portable ? `${this.clientPath}/Sandboxie.ini` : 'C:/Windows/Sandboxie.ini'
 })
 
