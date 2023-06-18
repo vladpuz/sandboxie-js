@@ -16,16 +16,8 @@ or portable versions of `Plus` and `Classic`.
 
 ## Install
 
-Using npm:
-
 ```bash
 npm install sandboxie-js
-```
-
-Using yarn:
-
-```bash
-yarn add sandboxie-js
 ```
 
 ## Usage

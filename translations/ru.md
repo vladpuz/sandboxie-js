@@ -16,16 +16,8 @@ TypeDoc документация доступна на [wiki](https://github.com
 
 ## Установка
 
-Используя npm:
-
 ```bash
 npm install sandboxie-js
-```
-
-Используя yarn:
-
-```bash
-yarn add sandboxie-js
 ```
 
 ## Использование
