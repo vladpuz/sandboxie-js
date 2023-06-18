@@ -3,7 +3,7 @@ import Sandboxie, { type RemoveOptions } from './index.js'
 
 const sandboxie = new Sandboxie()
 const name = 'TestBox'
-const names = Array.from(new Array(5), (item, i) => `TestBox${i + 1}`)
+const names = new Array(5).map((item, i) => `TestBox${i + 1}`)
 const program = ['/hide_window', 'C:/Windows/System32/notepad.exe']
 const settings = `
 Enabled=y
